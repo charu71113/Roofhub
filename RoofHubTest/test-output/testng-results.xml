@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RoofHub Suite" duration-ms="385340" started-at="2021-04-15T10:47:13 IST" finished-at="2021-04-15T10:53:39 IST">
+    <groups>
+    </groups>
+    <test name="Register" duration-ms="203393" started-at="2021-04-15T10:47:13 IST" finished-at="2021-04-15T10:50:37 IST">
+      <class name="com.roofhub.qa.TestCases.RegisterPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.roofhub.qa.TestCases.RegisterPageTest@76f2b07d]" name="setUp" is-config="true" duration-ms="104313" started-at="2021-04-15T10:47:13 IST" finished-at="2021-04-15T10:48:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyRegistration()[pri:0, instance:com.roofhub.qa.TestCases.RegisterPageTest@76f2b07d]" name="verifyRegistration" duration-ms="68630" started-at="2021-04-15T10:48:58 IST" finished-at="2021-04-15T10:50:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.roofhub.qa.TestCases.RegisterPageTest@76f2b07d]" name="tearDown" is-config="true" duration-ms="30171" started-at="2021-04-15T10:50:06 IST" finished-at="2021-04-15T10:50:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.roofhub.qa.TestCases.RegisterPageTest -->
+    </test> <!-- Register -->
+    <test name="Order" duration-ms="181453" started-at="2021-04-15T10:50:37 IST" finished-at="2021-04-15T10:53:39 IST">
+      <class name="com.roofhub.qa.TestCases.OrderPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.roofhub.qa.TestCases.OrderPageTest@1a8a8f7c]" name="setUp" is-config="true" duration-ms="35103" started-at="2021-04-15T10:50:37 IST" finished-at="2021-04-15T10:51:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyplaceorder()[pri:1, instance:com.roofhub.qa.TestCases.OrderPageTest@1a8a8f7c]" name="verifyplaceorder" duration-ms="50426" started-at="2021-04-15T10:51:12 IST" finished-at="2021-04-15T10:52:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyplaceorder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.roofhub.qa.TestCases.OrderPageTest@1a8a8f7c]" name="tearDown" is-config="true" duration-ms="4182" started-at="2021-04-15T10:52:03 IST" finished-at="2021-04-15T10:52:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.roofhub.qa.TestCases.OrderPageTest@1a8a8f7c]" name="setUp" is-config="true" duration-ms="34902" started-at="2021-04-15T10:52:07 IST" finished-at="2021-04-15T10:52:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCancelOrder()[pri:2, instance:com.roofhub.qa.TestCases.OrderPageTest@1a8a8f7c]" name="verifyCancelOrder" duration-ms="54737" started-at="2021-04-15T10:52:42 IST" finished-at="2021-04-15T10:53:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCancelOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.roofhub.qa.TestCases.OrderPageTest@1a8a8f7c]" name="tearDown" is-config="true" duration-ms="2091" started-at="2021-04-15T10:53:36 IST" finished-at="2021-04-15T10:53:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.roofhub.qa.TestCases.OrderPageTest -->
+    </test> <!-- Order -->
+  </suite> <!-- RoofHub Suite -->
+</testng-results>

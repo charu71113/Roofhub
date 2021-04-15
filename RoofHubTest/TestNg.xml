@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite  verbose="10" name="RoofHub Suite" annotations="JDK" >
+         <listeners>
+         <listener class-name="com.roofhub.qa.ExtentReportListener.ExtentReporterNG" />
+         
+        </listeners>
+ <test name="Register">
+     <classes>
+       <class name="com.roofhub.qa.TestCases.RegisterPageTest"/>
+       
+       </classes>
+       </test>
+       
+       <test name="Order">
+     <classes>
+       <class name="com.roofhub.qa.TestCases.OrderPageTest"/>
+     </classes>
+     </test>
+   
+</suite>

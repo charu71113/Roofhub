@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="10" name="Failed suite [RoofHub Suite]">
+  <listeners>
+    <listener class-name="com.roofhub.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" verbose="10" name="Order(failed)">
+    <classes>
+      <class name="com.roofhub.qa.TestCases.OrderPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyplaceorder"/>
+        </methods>
+      </class> <!-- com.roofhub.qa.TestCases.OrderPageTest -->
+    </classes>
+  </test> <!-- Order(failed) -->
+</suite> <!-- Failed suite [RoofHub Suite] -->
